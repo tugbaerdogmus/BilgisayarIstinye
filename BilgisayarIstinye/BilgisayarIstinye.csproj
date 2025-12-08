@@ -171,6 +171,7 @@
     <Content Include="temaDosyalar\css\mousecursor.css" />
     <Content Include="temaDosyalar\css\slicknav.min.css" />
     <Content Include="temaDosyalar\css\swiper-bundle.min.css" />
+    <Content Include="temaDosyalar\images\2.png" />
     <Content Include="temaDosyalar\images\404-error-img.png" />
     <Content Include="temaDosyalar\images\about-image-1.jpg" />
     <Content Include="temaDosyalar\images\about-image-2.jpg" />
