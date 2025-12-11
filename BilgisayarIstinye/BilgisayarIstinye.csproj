@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -339,6 +340,8 @@
     <Content Include="temaDosyalar\webfonts\fa-solid-900.woff2" />
     <Content Include="temaDosyalar\webfonts\fa-v4compatibility.ttf" />
     <Content Include="temaDosyalar\webfonts\fa-v4compatibility.woff2" />
+    <Content Include="Views\Shared\_AboutUsSectionPartialView.cshtml" />
+    <Content Include="Views\Page\AboutUs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
