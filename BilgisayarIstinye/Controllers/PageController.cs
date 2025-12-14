@@ -13,5 +13,17 @@ namespace BilgisayarIstinye.Controllers
         {
             return View();
         }
+        public ActionResult ContactUs()
+        {
+            return View();
+        }
+        public ActionResult Services()
+        {
+            return View();
+        }
+        public ActionResult ServiceDetail(int id)
+        {
+            return View();
+        }
     }
 }

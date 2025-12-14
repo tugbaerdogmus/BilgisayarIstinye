@@ -342,6 +342,14 @@
     <Content Include="temaDosyalar\webfonts\fa-v4compatibility.woff2" />
     <Content Include="Views\Shared\_AboutUsSectionPartialView.cshtml" />
     <Content Include="Views\Page\AboutUs.cshtml" />
+    <Content Include="Views\Shared\_OzelliklerSectionView.cshtml" />
+    <Content Include="Views\Shared\_BizKimizDetayPartialView.cshtml" />
+    <Content Include="Views\Shared\_FaqsPartialView.cshtml" />
+    <Content Include="Views\Page\ContactUs.cshtml" />
+    <Content Include="Views\Page\Services.cshtml" />
+    <Content Include="Views\Shared\_TestimonialPartialView.cshtml" />
+    <Content Include="Views\Shared\_NasilCalisirPartialView.cshtml" />
+    <Content Include="Views\Page\ServiceDetail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
