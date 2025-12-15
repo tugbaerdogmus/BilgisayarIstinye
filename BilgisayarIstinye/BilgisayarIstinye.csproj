@@ -350,6 +350,7 @@
     <Content Include="Views\Shared\_TestimonialPartialView.cshtml" />
     <Content Include="Views\Shared\_NasilCalisirPartialView.cshtml" />
     <Content Include="Views\Page\ServiceDetail.cshtml" />
+    <Content Include="Views\Shared\_MapPartialView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
