@@ -23,6 +23,25 @@ namespace BilgisayarIstinye.Controllers
         }
         public ActionResult ServiceDetail(int id)
         {
+            ViewBag.ServiceId = id;
+            return View();
+        }
+        public ActionResult Projects()
+        {
+            return View();
+        }
+        public ActionResult ProjectDetail(int id)
+        {
+            ViewBag.ProjectId = id;
+            return View();
+        }
+        public ActionResult Blogs()
+        {
+            return View();
+        }
+        public ActionResult BlogDetail(int id)
+        {
+            ViewBag.BlogtId = id;
             return View();
         }
     }

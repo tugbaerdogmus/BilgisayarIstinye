@@ -260,6 +260,8 @@
     <Content Include="temaDosyalar\images\loader.svg" />
     <Content Include="temaDosyalar\images\logo-white.svg" />
     <Content Include="temaDosyalar\images\logo.svg" />
+    <Content Include="temaDosyalar\images\logoCheetah.png" />
+    <Content Include="temaDosyalar\images\logoCheetah1.png" />
     <Content Include="temaDosyalar\images\page-category-bg.svg" />
     <Content Include="temaDosyalar\images\page-header-bg-shape.svg" />
     <Content Include="temaDosyalar\images\page-header-bg.png" />
@@ -351,6 +353,11 @@
     <Content Include="Views\Shared\_NasilCalisirPartialView.cshtml" />
     <Content Include="Views\Page\ServiceDetail.cshtml" />
     <Content Include="Views\Shared\_MapPartialView.cshtml" />
+    <Content Include="Views\Page\Projects.cshtml" />
+    <Content Include="Views\Page\ProjectDetail.cshtml" />
+    <Content Include="Views\Shared\_PageFaqsPartialView.cshtml" />
+    <Content Include="Views\Page\Blogs.cshtml" />
+    <Content Include="Views\Page\BlogDetail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -30,11 +30,44 @@
     <link href="/temaDosyalar/css/animate.css" rel="stylesheet">
     <!-- Magnific Popup Core Css File -->
     <link rel="stylesheet" href="/temaDosyalar/css/magnific-popup.css">
+
     <!-- Mouse Cursor Css File -->
-    <link rel="stylesheet" href="/temaDosyalar/css/mousecursor.css">
+    <!-- <link rel="stylesheet" href="/temaDosyalar/css/mousecursor.css">--> 
+    <!--sonradan kapatılan kısım-->
+
     <!-- Main Custom Css -->
     <link href="/temaDosyalar/css/custom.css" rel="stylesheet" media="screen">
+
+    <style>
+        /*animasyonları kapan kısım*/
+        .paused * {
+            animation-play-state: paused !important;
+        }
+        .fa-spin,
+        .fa-pulse,
+        .fa-beat,
+        .fa-bounce,
+        .fa-shake {
+            animation: none !important;
+        }
+        .animated {
+  will-change: auto;
+  animation-fill-mode: both;
+}
+
+@@media (prefers-reduced-motion: reduce) {
+  .animated {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+        /*animasyonları kapan kısım*/
+
+    </style>
 </head>
+
+
+
 <body>
 
     <!-- Preloader Start -->
@@ -70,8 +103,8 @@
                                         <li class="nav-item"><a class="nav-link" href="/Page/ServiceDetail?id=1">Bilgisayar Teknik Servis Hizmeti2</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Projelerimiz</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/Page/Projects">Projelerimiz</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/Page/Blogs">Blog</a></li>
                                 
                                 <li class="nav-item"><a class="nav-link" href="/Page/ContactUs">İletişim</a></li>
                             </ul>
@@ -178,7 +211,7 @@
                     <div class="col-lg-3 col-md-6">
                         <!-- Footer Links Start -->
                         <div class="footer-links">
-                            <h3>Get in Touch</h3>
+                            <h3>İletişime Geçin</h3>
                             <ul>
                                 <li><a href="tel:+0538 480 68 00">0538 480 68 00</a></li>
                                 <li><a href="mailto:support@domainame.com">support@domainame.com</a></li>
@@ -204,7 +237,7 @@
                     <div class="col-md-6">
                         <!-- Footer Copyright Text Start -->
                         <div class="footer-copyright-text">
-                            <img src="/temaDosyalar/images/2.png" class="flex-active" style="height:40px">
+                            <img src="~/temaDosyalar/images/logoCheetah1.png" class="flex-active" style="height:50px">
                             <p>Cheetah Media © 2025 Tüm Hakları Saklıdır.</p>
                         </div>
                         <!-- Footer Copyright Text End -->
@@ -261,7 +294,17 @@
     <script src="/temaDosyalar/js/flowmap-effect.min.js"></script>
     <!-- Main Custom js file -->
     <script src="/temaDosyalar/js/function.js"></script>
+
+    <script type="text/javascript">
+        document.addEventListener("visibilitychange", () => {
+            if (document.hidden) {
+                document.body.classList.add("paused");
+            } else {
+                document.body.classList.remove("paused");
+            }
+        });
+    </script>
 </body>
 
-<!-- Mirrored from html.awaikenthemes.com/nextmind/ai-image/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Dec 2025 06:25:29 GMT -->
+
 </html>
