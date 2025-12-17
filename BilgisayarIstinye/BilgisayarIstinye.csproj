@@ -190,7 +190,9 @@
     <Content Include="temaDosyalar\images\author-3.jpg" />
     <Content Include="temaDosyalar\images\author-4.jpg" />
     <Content Include="temaDosyalar\images\author-5.jpg" />
+    <Content Include="temaDosyalar\images\b1.png" />
     <Content Include="temaDosyalar\images\banner1.png" />
+    <Content Include="temaDosyalar\images\bb1.png" />
     <Content Include="temaDosyalar\images\brand-image-1.jpg" />
     <Content Include="temaDosyalar\images\brand-image-2.jpg" />
     <Content Include="temaDosyalar\images\company-logo-1.svg" />
@@ -259,8 +261,10 @@
     <Content Include="temaDosyalar\images\intro-video-bg-shape.svg" />
     <Content Include="temaDosyalar\images\intro-video-image.jpg" />
     <Content Include="temaDosyalar\images\loader.svg" />
+    <Content Include="temaDosyalar\images\logo-1.png" />
     <Content Include="temaDosyalar\images\logo-white.svg" />
     <Content Include="temaDosyalar\images\logo.svg" />
+    <Content Include="temaDosyalar\images\logo1.png" />
     <Content Include="temaDosyalar\images\logoCheetah.png" />
     <Content Include="temaDosyalar\images\logoCheetah1.png" />
     <Content Include="temaDosyalar\images\page-category-bg.svg" />
@@ -361,6 +365,7 @@
     <Content Include="Views\Shared\_PageFaqsPartialView.cshtml" />
     <Content Include="Views\Page\Blogs.cshtml" />
     <Content Include="Views\Page\BlogDetail.cshtml" />
+    <Content Include="Views\Shared\_AboutUsSidebarPartialView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
