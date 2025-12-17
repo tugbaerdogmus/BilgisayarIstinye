@@ -167,7 +167,7 @@
                         <div class="about-footer">
                             <!-- Footer Logo Start -->
                             <div class="footer-logo">
-                                <img src="/temaDosyalar/images/footer-logo.svg" alt="">
+                                <img src="/temaDosyalar/images/logo-footer.png" alt="">
                             </div>
                             <!-- Footer Logo End -->
                         </div>
@@ -312,6 +312,27 @@
             }
         });
     </script>
+    <!--whatsapp - sağ alt köşe-->
+
+    <script>
+        window.onload = function () {
+            whatsapp_se_btn_phone = '+905308326785'; //Telefon numarası
+            whatsapp_se_btn_msg = 'istinyebilgisayar.com Web sitenizden ulaşıyorum. Bilgi/teklif almak istiyorum.'; //Yazılmasını istediğimiz hazır mesaj.
+            $(document.body).append('<div class="whatsapp-se-btn"></div>'), whatsapp_se_btn_base64 = "/temaDosyalar/images/wp.png", $(".whatsapp-se-btn").attr("style", "position:fixed;bottom:70px;right:25px;overflow:hidden;color:#ffffff;text-align:center;padding:4px 4px;z-index:9999999;cursor:pointer;border-radius:100px;width:75px"), $(".whatsapp-se-btn").html('<img style="width:100%;" src="' + whatsapp_se_btn_base64 + '" alt="Whatsapp ile İletişime Geç" />'), $(".whatsapp-se-btn").attr("onclick", 'window.open("https://wa.me/' + whatsapp_se_btn_phone + "?text=" + whatsapp_se_btn_msg + '")');
+        }
+    </script>
+    <!--whatsapp - sağ alt köşe-->
+    <!--hizmetler wp yönlendirme-->
+    <script>
+        function openWhatsApp() {
+            const phone = "+905308326785";
+            const message = "Merhaba, size ulaşmak istiyorum";
+            const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+            window.open(url, "_blank");
+        }
+    </script>
+    <!--hizmetler wp yönlendirme-->
+
 </body>
 
 

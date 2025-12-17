@@ -262,6 +262,7 @@
     <Content Include="temaDosyalar\images\intro-video-image.jpg" />
     <Content Include="temaDosyalar\images\loader.svg" />
     <Content Include="temaDosyalar\images\logo-1.png" />
+    <Content Include="temaDosyalar\images\logo-footer.png" />
     <Content Include="temaDosyalar\images\logo-white.svg" />
     <Content Include="temaDosyalar\images\logo.svg" />
     <Content Include="temaDosyalar\images\logo1.png" />
@@ -311,6 +312,7 @@
     <Content Include="temaDosyalar\images\testimonial-image-4.jpg" />
     <Content Include="temaDosyalar\images\testimonial-image-5.jpg" />
     <Content Include="temaDosyalar\images\testimonial-image-6.jpg" />
+    <Content Include="temaDosyalar\images\wp.png" />
     <Content Include="temaDosyalar\js\bootstrap.min.js" />
     <Content Include="temaDosyalar\js\flowmap-effect.min.js" />
     <Content Include="temaDosyalar\js\function.js" />
