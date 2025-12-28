@@ -368,6 +368,10 @@
     <Content Include="Views\Page\Blogs.cshtml" />
     <Content Include="Views\Page\BlogDetail.cshtml" />
     <Content Include="Views\Shared\_AboutUsSidebarPartialView.cshtml" />
+    <Content Include="Views\Shared\_BlogHomePartialView.cshtml" />
+    <Content Include="Views\Shared\_ProductsHomePartialView.cshtml" />
+    <Content Include="Views\Page\Products.cshtml" />
+    <Content Include="Views\Page\ProductDetail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

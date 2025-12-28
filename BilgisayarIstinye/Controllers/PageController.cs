@@ -37,6 +37,14 @@ namespace BilgisayarIstinye.Controllers
             ViewBag.ProjectId = id;
             return View();
         }
+        public ActionResult Products()
+        {
+            return View();
+        }
+        public ActionResult ProductDetail(int id)
+        {
+            return View();
+        }
         public ActionResult Blogs()
         {
             return View();
