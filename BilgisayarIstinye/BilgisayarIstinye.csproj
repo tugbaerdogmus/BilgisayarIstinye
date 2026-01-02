@@ -214,6 +214,15 @@
     <Content Include="temaDosyalar\images\gallery-7.jpg" />
     <Content Include="temaDosyalar\images\gallery-8.jpg" />
     <Content Include="temaDosyalar\images\gallery-9.jpg" />
+    <Content Include="temaDosyalar\images\hakkimizdakucuk\1-216x178.png" />
+    <Content Include="temaDosyalar\images\hakkimizdakucuk\2-216x178-1.png" />
+    <Content Include="temaDosyalar\images\hakkimizdakucuk\3-216x178-2.png" />
+    <Content Include="temaDosyalar\images\hakkimizdakucuk\4-216x179.png" />
+    <Content Include="temaDosyalar\images\hakkimizdakucuk\5-296x208.png" />
+    <Content Include="temaDosyalar\images\hakkimizdakucuk\6-296x243.png" />
+    <Content Include="temaDosyalar\images\hakkimizdakucuk\7-360x280.png" />
+    <Content Include="temaDosyalar\images\hakkimizdakucuk\8-360x320.png" />
+    <Content Include="temaDosyalar\images\hakkimizdakucuk\9-605x448.png" />
     <Content Include="temaDosyalar\images\hero-bg-image.png" />
     <Content Include="temaDosyalar\images\hero-bg-shape.svg" />
     <Content Include="temaDosyalar\images\hero-counter-bg.jpg" />
