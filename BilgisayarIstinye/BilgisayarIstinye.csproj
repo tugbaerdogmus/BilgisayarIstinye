@@ -172,6 +172,9 @@
     <Content Include="temaDosyalar\css\mousecursor.css" />
     <Content Include="temaDosyalar\css\slicknav.min.css" />
     <Content Include="temaDosyalar\css\swiper-bundle.min.css" />
+    <Content Include="temaDosyalar\images\1.png" />
+    <Content Include="temaDosyalar\images\10.png" />
+    <Content Include="temaDosyalar\images\14.png" />
     <Content Include="temaDosyalar\images\2.png" />
     <Content Include="temaDosyalar\images\404-error-img.png" />
     <Content Include="temaDosyalar\images\about-image-1.jpg" />
@@ -287,6 +290,10 @@
     <Content Include="temaDosyalar\images\post-4.jpg" />
     <Content Include="temaDosyalar\images\post-5.jpg" />
     <Content Include="temaDosyalar\images\post-6.jpg" />
+    <Content Include="temaDosyalar\images\product4.png" />
+    <Content Include="temaDosyalar\images\product5.png" />
+    <Content Include="temaDosyalar\images\product6.png" />
+    <Content Include="temaDosyalar\images\product7.png" />
     <Content Include="temaDosyalar\images\proje1.png" />
     <Content Include="temaDosyalar\images\proje2.png" />
     <Content Include="temaDosyalar\images\project-1.jpg" />
