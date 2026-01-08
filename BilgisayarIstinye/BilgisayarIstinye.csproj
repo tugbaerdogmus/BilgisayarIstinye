@@ -178,7 +178,11 @@
     <Content Include="temaDosyalar\images\2.png" />
     <Content Include="temaDosyalar\images\404-error-img.png" />
     <Content Include="temaDosyalar\images\605x448-B1.png" />
+    <Content Include="temaDosyalar\images\605x448teknikservis1.png" />
+    <Content Include="temaDosyalar\images\605x448teknikservis2.png" />
     <Content Include="temaDosyalar\images\605x448Web.png" />
+    <Content Include="temaDosyalar\images\605x448webhizmet1.png" />
+    <Content Include="temaDosyalar\images\605x448webhizmet2.png" />
     <Content Include="temaDosyalar\images\about-image-1.jpg" />
     <Content Include="temaDosyalar\images\about-image-2.jpg" />
     <Content Include="temaDosyalar\images\about-image-3.jpg" />
@@ -196,7 +200,9 @@
     <Content Include="temaDosyalar\images\author-4.jpg" />
     <Content Include="temaDosyalar\images\author-5.jpg" />
     <Content Include="temaDosyalar\images\b1.png" />
+    <Content Include="temaDosyalar\images\banner-3-1.png" />
     <Content Include="temaDosyalar\images\banner1.png" />
+    <Content Include="temaDosyalar\images\banner3-1.png" />
     <Content Include="temaDosyalar\images\bb1.png" />
     <Content Include="temaDosyalar\images\brand-image-1.jpg" />
     <Content Include="temaDosyalar\images\brand-image-2.jpg" />
@@ -225,6 +231,8 @@
     <Content Include="temaDosyalar\images\hakkimizdakucuk\4-216x179.png" />
     <Content Include="temaDosyalar\images\hakkimizdakucuk\5-296x208.png" />
     <Content Include="temaDosyalar\images\hakkimizdakucuk\6-296x243.png" />
+    <Content Include="temaDosyalar\images\hakkimizdakucuk\605x448hakkimizda1.png" />
+    <Content Include="temaDosyalar\images\hakkimizdakucuk\605x448hakkimizdda2.png" />
     <Content Include="temaDosyalar\images\hakkimizdakucuk\7-360x280.png" />
     <Content Include="temaDosyalar\images\hakkimizdakucuk\8-360x320.png" />
     <Content Include="temaDosyalar\images\hakkimizdakucuk\9-605x448.png" />
@@ -279,7 +287,10 @@
     <Content Include="temaDosyalar\images\logo-footer.png" />
     <Content Include="temaDosyalar\images\logo-white.svg" />
     <Content Include="temaDosyalar\images\logo.svg" />
+    <Content Include="temaDosyalar\images\logo1-1.png" />
     <Content Include="temaDosyalar\images\logo1.png" />
+    <Content Include="temaDosyalar\images\logo3-1.png" />
+    <Content Include="temaDosyalar\images\logo4-1.png" />
     <Content Include="temaDosyalar\images\logoCheetah.png" />
     <Content Include="temaDosyalar\images\logoCheetah1.png" />
     <Content Include="temaDosyalar\images\page-category-bg.svg" />

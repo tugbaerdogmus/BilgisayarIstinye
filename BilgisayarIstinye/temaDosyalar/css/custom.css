@@ -781,7 +781,7 @@ header.main-header .header-sticky.active{
     background: url('../images/hero-bg-image.png') no-repeat;
     background-position: center center;
     background-size: cover;
-	padding: 215px 0 100px;
+	padding: 120px 0 100px;
 }
 
 .hero::before{
@@ -803,7 +803,7 @@ header.main-header .header-sticky.active{
 	background: url('../images/intro-video-image.jpg') no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding: 300px 0 180px;
+	padding: 260px 0 100px;
 }
 
 .hero.hero-bg-image::before{
