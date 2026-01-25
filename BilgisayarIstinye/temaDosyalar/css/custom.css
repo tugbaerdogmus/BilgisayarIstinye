@@ -479,11 +479,12 @@ body{
 /************************************/
 
 header.main-header{
-	position: absolute;
+	position: fixed!important;
 	top: 0;
 	width: 100%;
     border-bottom: 1px solid var(--divider-color);
-	z-index: 100;
+	z-index: 9999;
+	background-color:inherit;
 }
 
 .main-header.dark-header-bg{
