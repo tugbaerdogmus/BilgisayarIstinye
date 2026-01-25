@@ -374,7 +374,7 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-    var phoneNumber = "905308326785";
+    var phoneNumber = "+905384806800";
     var domainName = window.location.hostname;
 
     document.querySelectorAll(".whatsapp-product-btn").forEach(function (btn) {
@@ -387,10 +387,7 @@ document.addEventListener("DOMContentLoaded", function () {
             var productUrl = this.dataset.productUrl;
 
             var message =
-                "Merhaba, " + domainName + " sitenizden yazıyorum.%0A%0A" +
-                "📦 Ürün: " + productName + "%0A" +
-                "💰 Fiyat: ₺" + productPrice + "%0A" +
-                "🔗 Link: " + productUrl;
+                "Merhaba, " + domainName + " sitenizden yazıyorum. Bilgi/teklif almak istiyorum.";
 
             var finalLink =
                 "https://wa.me/" + phoneNumber + "?text=" + message;
